@@ -5,10 +5,16 @@ import java.util.Scanner;
 /**
  * Created by Daniel_D'AGE on 23.06.2017.
  */
-public class Main {
+public class PrimeNumber {
     public static void main(String[] args) {
 
-        //metoda + klasa z metoda statyczną
+        PrimeNumber.CheckPrimeNumber();
+
+
+    }
+
+    public static void CheckPrimeNumber() {
+
         Scanner primeNumber = new Scanner(System.in);
         System.out.println("Podaj dowolną liczbę: ");
         int a = primeNumber.nextInt();
